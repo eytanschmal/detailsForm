@@ -36,10 +36,10 @@
             };
 
             try {
-                const response = await fetch('https://script.google.com/macros/s/AKfycbzN-yMfEe_Y0uh3sTdf0nt2uSMUfpDTNhu_VxzpuuSAWY5E6IavqYQOG_q6CpJzfREJrg/exec', {
+                const response = await fetch('https://script.google.com/macros/s/AKfycbzDJPbtJYm8Qzsrrv8bAaQHd-BGJuoFP3J4PIE2AsOhyxRhnml06eKBbFxk2iDWqRnKDA/exec', {
                     method: 'POST',
                     mode: 'cors', // Allow cross-origin requests
-                    body: JSON.stringify(formData),
+                    //body: JSON.stringify(formData),
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
                         name: document.getElementById('name').value,
